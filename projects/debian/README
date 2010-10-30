@@ -1,0 +1,6 @@
+SPI material handled on behalf of Debian
+
+Stuff in this directory is writable by Debian advisors for the SPI board
+(usually the DPL).
+
+ -- Stefano Zacchiroli <zack@debian.org>  Sat, 30 Oct 2010 16:30:33 +0200
