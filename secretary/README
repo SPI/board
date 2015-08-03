@@ -1,0 +1,32 @@
+Secretary Duties
+================
+
+IRC meetings
+------------
+
+The SPI Board meets on IRC once per month to conduct board meetings.
+
+During board meetings, votes are cast to approve past minutes and to
+vote on resolutions.  An irssi helper script can be used to conduct
+the votes.
+
+Load the script:
+
+    /load ~/.irssi/vote.pl
+
+Start a vote:
+
+    /vote_start Meeting minutes for Thursday XX XXXXXXXX 2015:bdale,ganneff,tbm,schultmc,solver,linuxhiker,glp,zobel,xnox
+
+Board members can now vote:
+
+    !vote yes
+    !vote no
+    !vote abstain
+
+When everyone has voted, stop the vote:
+
+    /vote_stop
+
+The results of the vote will be shown.
+
