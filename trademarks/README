@@ -1,3 +1,5 @@
+Trademarks
+==========
 
 SPI maintains trademarks for several associated projects.
 
@@ -11,9 +13,9 @@ US trademarks have to be renewed on a regular basis:
 * File a Declaration of Use (or Excusable Nonuse) between the 9th and 10th years after registration
 * File a Declaration of Use (or Excusable Nonuse) and an Application for Renewal between every 9th and 10th-year period calculated from the registration date
 
-The script check-us-trademark-filing-dates can be used as a reminder of
+The script `check-us-trademark-filing-dates` can be used as a reminder of
 filing periods.  By default, it will only show upcoming filing deadlines.
-With the --historical option, it will also show past filings.  The script
-relies on a YAML file about the trademarks (us-trademarks.yaml), which
+With the `--historical` option, it will also show past filings.  The script
+relies on a YAML file about the trademarks (`us-trademarks.yaml`), which
 has to be updated manually.
 
