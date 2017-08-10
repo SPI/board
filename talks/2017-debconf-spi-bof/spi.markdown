@@ -106,7 +106,7 @@ Thanks to Jonathan McDowell (Noodles)!
 
 * February 12-14, 2016
 * February 24-25, 2017
-* October 2017
+* October 13-14, 2017
 
 One face-to-face in September/October in future years
 
