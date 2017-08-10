@@ -160,7 +160,7 @@ Generous donations
 
 ## Work in progress
 
-* Directors and officers liability Insurance
+* Directors and officers liability insurance
 * New by-laws
 
 ## Getting involved
