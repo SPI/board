@@ -40,7 +40,7 @@ July 2016
 July 2017
 
 * Dimitri John Ledkov resigned due to lack of time
-* Andrew Tridgell
+* Andrew Tridgell resigned to allow for 3 election slots
 * Martin Michlmayr was up for re-election
 
 Nominations
