@@ -150,16 +150,16 @@ Generous donations
 * Proper expense policy
 * Financial review or audit
 
-## Recent accomplishments
+## Progress updates
 
+* Finance improvements
 * Annual reports
 * Switch to single transferable vote (STV)
 	* Ian Jackson: led discussion
 	* Jonathan McDowell (Noodles): did implementation
-* Virtual physical address
-
-## Work in progress
-
+* Virtual physical address and phone number
+* Clarity of mission
+* Governance improvements
 * Directors and officers liability insurance
 * New by-laws
 
