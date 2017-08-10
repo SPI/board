@@ -102,6 +102,10 @@ Thanks to Jonathan McDowell (Noodles)!
 * Torch
 * X.Org
 
+## Projects
+
+![](projects.png)
+
 ## Face-to-face meetings
 
 * February 12-14, 2016
