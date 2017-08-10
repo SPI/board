@@ -14,13 +14,13 @@ date: August 10, 2017
 
 ## Board
 
-As of January 2017
+As of August 2017
 
 * Luca Filipozzi
 * Joerg Jaspert
 * Jimmy Kaplowitz
-* Dimitri John Ledkov
 * Martin Michlmayr
+* Tim Potter
 * Michael Schultheiss
 * Andrew Tridgell
 * Valerie Young
