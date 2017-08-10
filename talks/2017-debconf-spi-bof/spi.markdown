@@ -138,7 +138,7 @@ Generous donations
 
 ## Reimbursement process
 
-* RT form with more details
+* RT workflow with guided process and more details
 * Long-term: possibly Software Freedom Conservancy's reimbursement tool
 * Paid help to streamline reimbursements
 
