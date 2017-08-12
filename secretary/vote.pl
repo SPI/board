@@ -102,7 +102,7 @@ sub vote_result {
   }
 
   my $yes=0; my $no=0; my $abstain=0; my $novote=0; my $missnicks="";
-  while (my ($key, $value) = each (%{%votes->{$channame}{voters}})) {
+  while (my ($key, $value) = each (%{$votes{$channame}{voters}})) {
 	if ($votes{$channame}{voters}{$key} eq "yes") {
 	  $yes++;
 	} elsif ($votes{$channame}{voters}{$key} eq "no") {
