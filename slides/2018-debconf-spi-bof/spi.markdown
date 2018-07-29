@@ -88,14 +88,7 @@ Thanks to Jonathan McDowell (Noodles)!
 
 ## New projects
 
-* ArduPilot
-* Glucosio
-* NTPsec
-* Open MPI
-* OpenZFS
-* Performance Co-Pilot
-* Torch
-* X.Org
+* TODO 
 
 ## Projects
 
@@ -159,7 +152,7 @@ Generous donations
 * Clarity of mission
 * Governance improvements
 * Directors and officers liability insurance
-* New by-laws
+* New by-laws (thanks to Jimmy and Ian Jackson)
 
 ## Getting involved
 
