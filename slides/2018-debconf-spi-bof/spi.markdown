@@ -89,7 +89,15 @@ Thanks to Jonathan McDowell (Noodles)!
 
 ## New projects
 
-* TODO 
+* Arch Linux 32 has been proposed (Intel x86 port)
+
+## Removal of defunct projects
+
+* MadWifi
+* Open64
+* OSUNIX
+* Path64
+* TideSDK
 
 ## Projects
 
