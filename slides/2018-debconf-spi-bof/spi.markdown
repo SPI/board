@@ -131,6 +131,9 @@ Generous donations
 
 * Total assets: $1,083,242
 
+* SPI: $217,320
+* Projects: $865,922
+
 ## Bookkeeping process
 
 * ledger-cli
