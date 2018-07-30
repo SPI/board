@@ -16,15 +16,14 @@ date: July 31, 2018
 
 ## Board: Election
 
-July 2018
-
-Vacancies
+2018 Vacancies
 
 * Luca Filipozzi resigned to create 3 vacancies
-* Joerg Jaspert resigned due to lack of time; R. Tyler Croy was appointed for the interim
+* Joerg Jaspert resigned earlier in 2018 due to lack of time; R. Tyler Croy
+  appointed as interim director
 * Michael Schultheiss was up for re-election
 
-Nominations / Results
+2018 Nominations / Results
 
 * R. Tyler Croy
 * Luca Filipozzi **
@@ -37,19 +36,15 @@ Nominations / Results
 
 As of August 2018
 
-* Luca Filipozzi [3]
-* Stephen Frost [3]
-* Jimmy Kaplowitz [1]
-* Martin Michlmayr [2]
-* Tim Potter [2]
-* Michael Schultheiss [3]
-* Andrew Tridgell [2]
-* Valerie Young [1]
-* Martin Zobel-Helas [1]
-
-[1]: 2016-2019
-[2]: 2017-2020
-[3]: 2018-2021
+* Luca Filipozzi
+* Stephen Frost
+* Jimmy Kaplowitz
+* Martin Michlmayr
+* Tim Potter
+* Michael Schultheiss
+* Andrew Tridgell
+* Valerie Young
+* Martin Zobel-Helas
 
 ## Board: Officers
 
@@ -79,14 +74,14 @@ deep-dive discussions regarding
 ## Membership: Statistics
 
 * 2016-01-01
-   * 517 active contributing members
-   * 520 non-contributing members
+	* 517 active contributing members
+	* 520 non-contributing members
 * 2017-01-01
-   * 246 active contributing members
-   * 900 non-contributing members
+	* 246 active contributing members
+	* 900 non-contributing members
 * 2018-08-01
-   * 260 active contributing members
-   * 998 non-contributing members
+	* 260 active contributing members
+	* 998 non-contributing members
 
 Inactive contributing members lose the ability to vote.
 
@@ -126,12 +121,13 @@ Defunct Associated Projects
 * Expenditures: $612,941
 * Net Income: $22,370
 
-* Total Assets: $1,083,242
+2017 Assets (USD)
 
+* Total Assets: $1,083,242
 * SPI: $217,320
 * Projects: $865,922
 
-Generous donations
+Generous Donations
 
 * Craigslist Foundation
 * Google
@@ -141,13 +137,13 @@ Generous donations
 * Finance improvements
 * Annual reports
 * Switch to single transferable vote (STV)
-   * Ian Jackson: led discussion
-   * Jonathan McDowell (Noodles): did implementation
-* Virtual physical address and phone number
+	* Ian Jackson: led discussion
+	* Jonathan McDowell: did implementation
+* Virtual mailing address and phone number
 * Clarity of mission
 * Governance improvements
 * Directors and officers liability insurance
-* New by-laws (thanks to Jimmy and Ian Jackson)
+* New by-laws (thanks to Jimmy Kaplowitz and Ian Jackson)
 
 ## Future Objectives
 
