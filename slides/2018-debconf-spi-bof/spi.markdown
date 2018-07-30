@@ -1,5 +1,5 @@
 ---
-title: SPI BOF
+title: SPI BOF @ DebConf18
 author: Luca Filipozzi & Martin Zobel-Helas
 date: July 31, 2018
 ---
@@ -49,34 +49,6 @@ As of August 2018
 ## Board: Officers
 
 2017-2018
-
-* Joerg Jaspert resigned due to lack of time
-* R. Tyler Croy was appointed by the board as an interim board member by the board
-
-Nominations
-
-* R. Tyler Croy
-* Luca Filipozzi
-* Stephen Frost
-* Michael Schultheiss
-
-Vote results from last week
-
-* Luca Filipozzi
-* Michael Schultheiss
-* Stephen Frost
-
-## Recent departures
-
-2017
-
-* Dimitri John Ledkov
-
-2018
-
-* Joerg Jaspert
-
-## Officers
 
 * President: Martin Michlmayr
 * Vice-President: Luca Filipozzi
