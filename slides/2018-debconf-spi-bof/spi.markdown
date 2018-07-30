@@ -6,92 +6,107 @@ date: July 31, 2018
 
 ## Agenda
 
-* Board members and officers
-* Financial status
-* Recent accomplishments
-* Work in progress
-* Q&A
+* Board: Election, Directors, Officers and Meetings
+* Membership: Statistics and Applications
+* Associated Projects
+* Financial Position
+* Recent Accomplishments
+* Future Objectives
+* Questions
 
-## Board
+## Board: Election
+
+July 2018
+
+Vacancies
+
+* Luca Filipozzi resigned to create 3 vacancies
+* Joerg Jaspert resigned due to lack of time; R. Tyler Croy was appointed for the interim
+* Michael Schultheiss was up for re-election
+
+Nominations / Results
+
+* R. Tyler Croy
+* Luca Filipozzi **
+* Stephen Frost **
+* Michael Schultheiss **
+
+** elected by contributing member vote
+
+## Board: Directors
 
 As of August 2018
 
-* Luca Filipozzi
-* Stephen Frost
-* Jimmy Kaplowitz
-* Martin Michlmayr
-* Tim Potter
-* Michael Schultheiss
-* Andrew Tridgell
-* Valerie Young
-* Martin Zobel-Helas
+* Luca Filipozzi [3]
+* Stephen Frost [3]
+* Jimmy Kaplowitz [1]
+* Martin Michlmayr [2]
+* Tim Potter [2]
+* Michael Schultheiss [3]
+* Andrew Tridgell [2]
+* Valerie Young [1]
+* Martin Zobel-Helas [1]
 
-## Elections
+[1]: 2016-2019
+[2]: 2017-2020
+[3]: 2018-2021
 
-July 2017
+## Board: Officers
 
-* Dimitri John Ledkov resigned due to lack of time
-* Andrew Tridgell resigned to allow for 3 election slots
-* Martin Michlmayr was up for re-election
-
-Nominations
-
-* Martin Michlmayr
-* Tim Potter
-* Andrew Tridgell
-
-No vote required
-
-## Elections
-
-March 2018
-
-* Joerg Jaspert resigned due to lack of time
-* R. Tyler Croy was appointed by the board as an interim board member by the board
-
-
-## Recent departures
-
-2017
-
-* Dimitri John Ledkov
-
-2018
-
-* Joerg Jaspert
-
-## Officers
+2017-2018
 
 * President: Martin Michlmayr
 * Vice-President: Luca Filipozzi
 * Secretary: Valerie Young
 * Treasurer: Michael Schultheiss
 
-Officer appointment next week
+2018-2019
 
-## Membership
+* Officer selection next week
 
-Membership clean-up in preparation for by-law vote:
+## Board: Meetings
 
-* January 1, 2016: 517 contributing and 520 non-contributing members
-* December 31, 2016:  246 contributing members and 900 non-contributing members
-* July 31, 2018: 260 contributing members and 998 non-contributing members
+The Board meets virtually each month in irc://irc.oftc.net/spi
 
-Thanks to Jonathan McDowell (Noodles)!
+Additionally, the Board meets physically, once per year, in New York, to hold
+deep-dive discussions regarding
 
-## Membership
+* Vision
+* Strategy
+* Roadmap
+* Operations
 
-* Anyone who agrees with the principles of SPI is eligible & encouraged to apply for membership!
+## Membership: Statistics
 
-* Those who participate actively in the free software community may apply for contributing membership, which includes the right to vote
+* 2016-01-01
+   * 517 active contributing members
+   * 520 non-contributing members
+* 2017-01-01
+   * 246 active contributing members
+   * 900 non-contributing members
+* 2018-08-01
+   * 260 active contributing members
+   * 998 non-contributing members
 
-* http://www.spi-inc.org/about-spi/membership
+Inactive contributing members lose the ability to vote.
 
-## New projects
+Thanks to Jonathan McDowell for maintaining the membership roster.
 
-* Arch Linux 32 has been proposed (Intel x86 port)
+## Membership: Applications
 
-## Removal of defunct projects
+* Anyone who agrees with the principles of SPI is eligible & encouraged to apply for non-contributing membership!
+
+* Those who participate actively in the free software community may apply for contributing membership, which includes the right to vote.
+
+* Please visit http://www.spi-inc.org/about-spi/membership for more information.
+
+## Associated Projects
+
+New or Proposed Associated Projects
+
+* Arch Linux 32 (proposed)
+
+Defunct Associated Projects
 
 * MadWifi
 * Open64
@@ -99,53 +114,44 @@ Thanks to Jonathan McDowell (Noodles)!
 * Path64
 * TideSDK
 
-## Projects
+## Associated Projects
 
 ![](projects.png)
 
-## Face-to-face meetings
+## Financial Position
 
-* February 12-14, 2016
-* February 24-25, 2017
-* October 13-14, 2017
+2017 Fiscal Year (USD)
 
-One face-to-face in September/October in future years
+* Gross Income: $635,311
+* Expenditures: $612,941
+* Net Income: $22,370
 
-* Vision
-* Strategy
-* Roadmap
-* Operations
+* Total Assets: $1,083,242
+
+* SPI: $217,320
+* Projects: $865,922
 
 Generous donations
 
 * Craigslist Foundation
 * Google
 
-## Financial status
+## Recent Accomplishments
 
-2017
+* Finance improvements
+* Annual reports
+* Switch to single transferable vote (STV)
+   * Ian Jackson: led discussion
+   * Jonathan McDowell (Noodles): did implementation
+* Virtual physical address and phone number
+* Clarity of mission
+* Governance improvements
+* Directors and officers liability insurance
+* New by-laws (thanks to Jimmy and Ian Jackson)
 
-* Gross Income: $635,311
-* Total Expenses: $612,941
-* Net Income: $22,370
+## Future Objectives
 
-* Total assets: $1,083,242
-
-* SPI: $217,320
-* Projects: $865,922
-
-## Bookkeeping process
-
-* ledger-cli
-* More regular reports
-* Access to projects
-
-## Reimbursement process
-
-* RT workflow with guided process and more details
-* Paid help to streamline reimbursements
-
-## Improving accounting process
+Accounting
 
 * Get away from single point of failure
 * Document everything
@@ -153,24 +159,21 @@ Generous donations
 * Proper expense policy
 * Financial review or audit
 
-## Progress updates
+Reporting
 
-* Finance improvements
-* Annual reports
-* Switch to single transferable vote (STV)
-	* Ian Jackson: led discussion
-	* Jonathan McDowell (Noodles): did implementation
-* Virtual physical address and phone number
-* Clarity of mission
-* Governance improvements
-* Directors and officers liability insurance
-* New by-laws (thanks to Jimmy and Ian Jackson)
+* More regular reports
+* Accessible by project liaisons
 
-## Getting involved
+Reimbursements
 
-* All board meetings are held on an open IRC channel, #spi on irc.oftc.net
-* Discussions are held on several mailing lists, see lists.spi-inc.org for more information
-* Use the opportunity of current board members and officers present at DebConf to discuss topics with us in person!
+* RT workflow with guided process and more details
+* Paid help to streamline reimbursements
+
+## Getting Involved
+
+* Public monthly meetings are held in irc://irc.oftc.net/spi and are announced on the spi-announce mailing list.
+* Intra-meeting discussions are held on several mailing lists, see lists.spi-inc.org for more information.
+* Use the opportunity of current board members and officers present at DebConf (Luca, Martin) to discuss topics with us in person!
 
 ## Questions?
 
