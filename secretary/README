@@ -8,10 +8,12 @@ A meeting notice should be sent approximately 10 days before the meeting
 to announce the meeting.  A meeting reminder should be sent approximately
 two or three days before the meeting.
 
-At the moment, SPI board meetings are conducted on the second Thursday
-of the month.  A meeting notice should be posted on Monday or Tuesday
-in the week before the board meeting.  The reminder should be posted
-on Monday or Tuesday in the week of the board meeting.
+At the moment, SPI board meetings are conducted on the second Monday
+of the month.  A meeting notice should be posted on Friday 10 days
+before the board meeting.  The reminder should be posted on Thursday
+or Friday the week before the board meeting. In addition, the Secretary
+should use SPI's twitter account to announce the upcoming meeting the week
+before.
 
 The meeting in July is the Annual General Meeting (AGM).
 
@@ -44,6 +46,27 @@ When everyone has voted, stop the vote:
 
 The results of the vote will be shown.
 
+Board meeting logs and minutes
+------------------------------
+
+After each IRC meeting, the Secretary should:
+
+1. Post the logs of the IRC meeting on spi-inc.org website under:
+   meetings/logs/<appropriate year>/<appropriate date>-log.txt
+
+2. Summarize the logs as meeting minutes and post on website under:
+   meeting/minutes/<appropriate year>/<appropriate date>.mdwn
+
+3. Create a new agenda page for the next month's meeting according to the date
+   set at the previous meeting. Include any discussions topics set at the
+   previous meeting. Post agenda on the website:
+   meeting/agendas/<appropriate year>/<appropriate date>.mdwn
+
+4. Update the next months agenda link:
+   meeting/agendas.mdwn
+
+5. Post any passed resolutions.
+
 Resolutions
 -----------
 
@@ -63,11 +86,11 @@ Annual report
 -------------
 
 The by-laws says that SPI will publish an annual report before the SPI
-General Meeting.  Technically, the President will produce the report but
-in reality it's prepared by the Secretary.  This involves getting updates
-from the President, Treasurer and all committees.  Additionally, new
-associated projects should be highlighted.  Finally, project liaisons
-should be asked to submit brief updates from their projects.
+General Meeting. The Secretary can assist the the President in producing
+the report.  This involves getting updates from the President, Treasurer
+and all committees.  Additionally, new associated projects should be
+highlighted.  Finally, project liaisons should be asked to submit brief
+updates from their projects.
 
 Conflict of interest
 --------------------
@@ -76,4 +99,37 @@ All directors have to submit conflict of interest declarations before
 appointment and annually thereafter.  They secretary has to ensure that
 annual declarations are filed by all directors and stored.  They are
 stored in the `board-private` repository.
+
+The resolution which instated this policy: 2016-02-10.djl.1
+
+The conflict of interest form can be found in the spi-private git
+repository. Board member should sign the conflict of interested
+declarations using gpg:
+
+  gpg --clearsign conflict.txt
+
+Change of year website maintenance
+----------------------------------
+
+Update website to reflect the new year on the meeting agenda, minutes and
+log pages.
+
+Yearly face-to-face meeting
+---------------------------
+
+The secretary and president should gather items for discussion at the
+face-to-face board meeting and set an agenda.
+
+The secretary should keep a summary of major discussion points and decisions
+made in the in person yearly board meeting. This note taking role can be
+shared among members and it is helpful to use a collaborative document editing
+tool, such as a hackpad. After the meeting, the secretary should write up a
+summary of the meeting from the notes and post to the website with other
+board meeting minutes. These minutes should be approved by vote in the following
+IRC board meeting.
+
+In addition to meeting notes, the secretary should also keep a summary of all
+action items assigned to board members. Action items from the face-to-face
+meeting can be added as an appendix to the following monthly board meetings in
+order to keep track of tasks and update the board on progress.
 
