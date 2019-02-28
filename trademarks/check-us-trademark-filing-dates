@@ -37,25 +37,25 @@ for data in yaml.load_all(stream):
         # Check if a declaration of use was filed in the renewal period.
         # Add 6 months at the end, which is the grace period.
         for renewal in [x for x in data.get('Renewals', []) if 'Declaration of use' in x and p_from <= x['Declaration of use'] <= p_to + datetime.timedelta(days=180)]:
-           if not args.historical:
-              break
-           print 'Renewal period from %s to %s' % (p_from, p_to)
-           print '  Declared use on', renewal['Declaration of use']
-           if 'Acceptance' in renewal and renewal['Acceptance']:
+            if not args.historical:
+                break
+            print 'Renewal period from %s to %s' % (p_from, p_to)
+            print '  Declared use on', renewal['Declaration of use']
+            if 'Acceptance' in renewal and renewal['Acceptance']:
                 print '  Accepted on', renewal['Acceptance']
-           else:
+            else:
                 print '  Acceptance outstanding?'
-           break
+            break
         else:
-           print 'Renewal period from %s to %s' % (p_from, p_to)
-           today = datetime.date.today()
-           if p_to < today:
-               print '  Renewal period is over.  Are the records out of date or has this not been filed?'
-           elif p_from <= today <= p_to:
-               print '  Filing is due NOW'
-           elif p_from <= today + datetime.timedelta(days=90) <= p_to:
-               print '  Renewal period starts within 90 days'
-           # We only care about the next renewal period, not about future ones.
-           break
+            print 'Renewal period from %s to %s' % (p_from, p_to)
+            today = datetime.date.today()
+            if p_to < today:
+                print '  Renewal period is over.  Are the records out of date or has this not been filed?'
+            elif p_from <= today <= p_to:
+                print '  Filing is due NOW'
+            elif p_from <= today + datetime.timedelta(days=90) <= p_to:
+                print '  Renewal period starts within 90 days'
+            # We only care about the next renewal period, not about future ones.
+            break
     print
 
