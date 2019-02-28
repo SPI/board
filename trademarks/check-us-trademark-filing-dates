@@ -27,7 +27,7 @@ stream = open('us-trademarks.yaml', 'r')
 for data in yaml.load_all(stream):
     print 'Trademark %d for %s: %s' % (data['US Registration Number'], data['Project'], data['Description'])
     registration = data['Registration']
-    print 'Trademark filed on', registration
+    print 'Trademark registered on', registration
     # Filings are due:
     #  - at the end of 6 years after the registration date
     #  - at the end of each successive 10 year period
