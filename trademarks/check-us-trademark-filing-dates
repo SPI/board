@@ -36,7 +36,7 @@ for data in yaml.load_all(stream):
         p_to = registration.replace(year = registration.year + i)
         # Check if a declaration of use was filed in the renewal period.
         # Add 6 months at the end, which is the grace period.
-        for renewal in [x for x in data['Renewals'] if 'Declaration of use' in x and p_from <= x['Declaration of use'] <= p_to + datetime.timedelta(days=180)]:
+        for renewal in [x for x in data.get('Renewals', []) if 'Declaration of use' in x and p_from <= x['Declaration of use'] <= p_to + datetime.timedelta(days=180)]:
            if not args.historical:
               break
            print 'Renewal period from %s to %s' % (p_from, p_to)
