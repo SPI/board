@@ -1,0 +1,11 @@
+These are some notes which were brainstormed at SPI's March 2019 in-person
+board meeting that board members should consider when handling new associated
+project inquiries. This is not a formal board policy or any other official
+document, but we do want to get more systematic about this.
+
+* Make sure they are a free software project
+* Are substantial and significant (at least a few people involved, with at least different affiliation/employers; have a user base)
+* Do they understand our restrictions (transfers outbound)
+* Are they the rights holders?  (If employer owns code, etc)
+* Outstanding legal threats
+
