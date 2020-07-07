@@ -19,3 +19,10 @@ With the `--historical` option, it will also show past filings.  The script
 relies on a YAML file about the trademarks (`us-trademarks.yaml`), which
 has to be updated manually.
 
+WIPO
+----
+
+* "the international registration is valid for ten years and can be renewed every ten years directly with WIPO" (Source: <https://www.wipo.int/madrid/en/how_to/manage/renewal.html>).
+* "You may renew your international registration either before the 10-year term of protection expires or within the six-month grace period following its expiry" (with a 50% surcharge)
+* "online requests for renewal will be available three months prior to the expiry of your international trademark registration" (Source: <https://www.wipo.int/madrid/en/news/2017/news_0014.html>).
+
