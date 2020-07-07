@@ -24,14 +24,14 @@ parser.add_argument('--historical', action='store_true', help='show historical i
 args = parser.parse_args()
 
 stream = open('us-trademarks.yaml', 'r')
-for data in yaml.load_all(stream):
-    print 'Trademark %d for %s: %s' % (data['US Registration Number'], data['Project'], data['Description'])
+for data in yaml.load_all(stream, Loader=yaml.SafeLoader):
+    print('Trademark %d for %s: %s' % (data['US Registration Number'], data['Project'], data['Description']))
     registration = data['Registration']
-    print 'Trademark registered on', registration
+    print('Trademark registered on ' + str(registration))
     # Filings are due:
     #  - at the end of 6 years after the registration date
     #  - at the end of each successive 10 year period
-    for i in [6] + range(10, 200, 10):
+    for i in [6] + list(range(10, 200, 10)):
         p_from = registration.replace(year = registration.year + i - 1)
         p_to = registration.replace(year = registration.year + i)
         # Check if a declaration of use was filed in the renewal period.
@@ -39,23 +39,23 @@ for data in yaml.load_all(stream):
         for renewal in [x for x in data.get('Renewals', []) if 'Declaration of use' in x and p_from <= x['Declaration of use'] <= p_to + datetime.timedelta(days=180)]:
             if not args.historical:
                 break
-            print 'Renewal period from %s to %s' % (p_from, p_to)
-            print '  Declared use on', renewal['Declaration of use']
+            print('Renewal period from %s to %s' % (p_from, p_to))
+            print('  Declared use on', renewal['Declaration of use'])
             if 'Acceptance' in renewal and renewal['Acceptance']:
-                print '  Accepted on', renewal['Acceptance']
+                print('  Accepted on', renewal['Acceptance'])
             else:
-                print '  Acceptance outstanding?'
+                print('  Acceptance outstanding?')
             break
         else:
-            print 'Renewal period from %s to %s' % (p_from, p_to)
+            print('Renewal period from %s to %s' % (p_from, p_to))
             today = datetime.date.today()
             if p_to < today:
-                print '  Renewal period is over.  Are the records out of date or has this not been filed?'
+                print('  Renewal period is over.  Are the records out of date or has this not been filed?')
             elif p_from <= today <= p_to:
-                print '  Filing is due NOW'
+                print('  Filing is due NOW')
             elif p_from <= today + datetime.timedelta(days=90) <= p_to:
-                print '  Renewal period starts within 90 days'
+                print('  Renewal period starts within 90 days')
             # We only care about the next renewal period, not about future ones.
             break
-    print
+    print("")
 
